@@ -1,0 +1,120 @@
+<!DOCTYPE html> <!-- first thing in any html document --!>
+<html lang="en"> <!-- root element of a web page --!>
+  <head> <!-- contains metadata about the document. typically invisible to the user  --!>
+    <meta charset="utf-8" /> <!-- defines the character set for this document. utf-8 is standard and includes a lot of non-english characters --!>
+    <title>HTML and CSS Foundations, class notes 2019-10-10</title>
+  </head>
+  <body> <!-- the contents of the page, what's seen in the browser --!>
+
+    <h1>
+        <!--
+        Nobody writes comments in HTML.        
+
+        Everything I know I learned in the '90s.
+        --!>
+        <blink>
+            uw pce html and css foundations, first day, 2019-10-10
+        </blink>
+    </h1>
+    as taught by sheyna watkins
+
+    <h2>Recommended software:</h2>
+    <table>
+        <tr hsize=300>
+            <td>Atom</td>
+            <td>Simple text editor, preferred for HTML</td>
+        <tr/><tr>
+            <td>Git</td>
+            <td>Required to push to GitHub for turning in assignments</td>
+        <tr/><tr>
+            <td><i><u>not</u></i> vim</td>
+            <td>well I'm not learning emacs...</td>
+        <tr/>
+    </table>
+
+    <h2>Git examples</h2>
+
+<pre>
+    <i># create a new repo in the current directory</i>
+    $ git init
+
+    <i># add a file to the staging area</i>
+    $ git add &lt;file&gt;
+
+    <i># show current state of stage</i>
+    $ git status
+
+    <i># commit changes to the local branch</i>
+    $ git commit -m "message"
+
+    <i># point local repository at remote origin</i>
+    $ git remote add origin https://github.com/me/project.git
+
+    <i># ruin a coworker's day</i>
+    $ git push origin master
+</pre>
+
+    <h2>GitHub</h2>
+    <ul><li>A for-profit "social network" for git users</li>
+        <li>Public repos for free, private for pay</li>
+        <li>Free hosting for small web projects</li>
+        <li>Convention for repo naming is "kebab-case"</li>
+    </ul>
+
+    <h2>HTML</h2>
+    <ul><li><b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage</li>
+        <ul><li>Text not constrained to be linear</li></ul>
+        <li>Not a programming language</li>
+        <li>Defines the structure of a web page</li>
+        <ul><li>Text is <i>"marked up"</i> to define how it should be displayed</li>
+            <li>For example, &lt;p&gt; represents a paragraph</li>
+        </ul>
+        <li>Invented by Tim Berners Lee, first published in 1991</li>
+        <li>HTML 5 was introduced in 2014</li>
+    </ul>
+    HTML 5 is defined by:
+    <ul><li><b>HTML</b>: structure</li>
+        <li><b>CSS</b>: appearance</li>
+        <li><b>JavaScript</b>: functionality</li>
+    </ul>
+
+    Example:
+<pre>
+    &lt;tagname attribute="value"&gt;content&lt;/tagname&gt;
+</pre>
+
+    <h2>Atom</h2>
+    <ul><li>autocomplete and syntax highlighting for HTML</li>
+        <li>use <a href="https://validator.w3.org">validator.w3.org</a> to validate code</li>
+    </ul>
+
+    <h2><i>Burning Questions</i></h2>
+
+    <ul><li>What if a file is modified after staging?</li>
+        <li>Can I launch atom from the command prompt?</li>
+        <ul><li>yes. professor will provide this later</li>
+            <ul><li>and I promised to figure it out on Windows...</li></ul>
+        </ul>
+    </ul>
+
+    <h2>Homework</h2>
+    <ul><li>Write a paragraph about <i>semantic elements</i></li>
+        <li>Create an HTML document that uses at least 15 HTML elements, submit to GitHub</li>
+        <li>Do "Lesson Zero" from Canvas <i>(overdue)</i></li>
+        <ul><li>Get NetID set up</li>
+            <li>Download Atom and git</li>
+        </ul>
+        <li>Create GitHub account</li>
+        <li>Figure out how to launch <b>Atom</b> from <b>git Bash</b> on Windows <i>(brownie points)</i></li>
+        <li>Find a good terminal and shell for macOS <i>(self improvement)</i></li>
+        <ul><li>zsh?</li>
+            <li>Searchable history</li>
+            <li>Command prompt with branch name</li>
+            <li>Intuitive copy/paste</li>
+            <li>Keyboard shortcuts (word skip, clear line, scroll...)</li>
+            <li>256 color, decent themes</li>
+            <li>Tabs, tearable and joinable</li>
+        </ul>
+    </ul>
+  </body>
+</html>
