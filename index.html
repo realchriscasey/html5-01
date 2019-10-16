@@ -15,12 +15,13 @@
         <blink>
             uw pce html and css foundations, first day, 2019-10-10
         </blink>
+        <!-- thank goodness blink is dead. -->
     </h1>
     as taught by sheyna watkins
 
     <h2>Recommended software:</h2>
     <table>
-        <tr hsize=300>
+        <tr>
             <td>Atom</td>
             <td>Simple text editor, preferred for HTML</td>
         <tr/><tr>
@@ -73,10 +74,10 @@
         <li>HTML 5 was introduced in 2014</li>
     </ul>
     HTML 5 is defined by:
-    <ul><li><b>HTML</b>: structure</li>
+    <ol><li><b>HTML</b>: structure</li>
         <li><b>CSS</b>: appearance</li>
         <li><b>JavaScript</b>: functionality</li>
-    </ul>
+    </ol>
 
     Example:
 <pre>
@@ -98,23 +99,45 @@
     </ul>
 
     <h2>Homework</h2>
-    <ul><li>Write a paragraph about <i>semantic elements</i></li>
+    <ul><li>Write a <a href="#semantics">paragraph</a> about <i>semantic elements</i></li>
         <li>Create an HTML document that uses at least 15 HTML elements, submit to GitHub</li>
         <li>Do "Lesson Zero" from Canvas <i>(overdue)</i></li>
         <ul><li>Get NetID set up</li>
             <li>Download Atom and git</li>
         </ul>
-        <li>Create GitHub account</li>
+        <li><s>Create GitHub account</s> <i>(existing personal account is ok)</i></li>
         <li>Figure out how to launch <b>Atom</b> from <b>git Bash</b> on Windows <i>(brownie points)</i></li>
         <li>Find a good terminal and shell for macOS <i>(self improvement)</i></li>
-        <ul><li>zsh?</li>
-            <li>Searchable history</li>
+        <ul><li>Searchable history</li>
             <li>Command prompt with branch name</li>
             <li>Intuitive copy/paste</li>
             <li>Keyboard shortcuts (word skip, clear line, scroll...)</li>
             <li>256 color, decent themes</li>
             <li>Tabs, tearable and joinable</li>
+            <li>zsh on hyperterm?</li>
         </ul>
     </ul>
+
+    <a name="semantics" />
+    <h2>Semantic Elements</h2>
+    <p>
+      Semantic Elements are <i>meaningful</i> tags that have an explicit effect
+      on the way a page's content is rendered by the browser. Their names are
+      human-understandable and they have similar effects on all compliant web
+      browsers. Using appropriate tags helps screen readers and other
+      accessibility tools better understand the page's structure.
+    </p>
+    <h3>block outline</h3>
+    <p>
+      Block level semantic elements define a separate group of content. These
+      groups are rendered as different visual elements. Some examples include
+      &lt;p&gt;, &lt;pre&gt; and &lt;article&gt;
+    </p>
+    <h3>inline</h3>
+    <p>
+      Inline semantic elements affect text within a line. They don't cause a
+      line break and don't indicate that the text is a different set of context.
+      Some examples include &lt;b&gt;, &lt;i&gt; and &lt;span&gt;
+    </p>
   </body>
 </html>
