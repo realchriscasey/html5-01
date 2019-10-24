@@ -1,2 +1,2 @@
-# html-01
-Homework assignment for first HTML5 class.
+# html5-01
+Homework assignments for HTML5 / CSS class
