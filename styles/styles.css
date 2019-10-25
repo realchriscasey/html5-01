@@ -1,0 +1,11 @@
+  .bright { color: red }
+  rt {color: magenta }
+  img {
+    border: 0.1rem dashed orange;
+    /* margin: -12px; */
+  }
+  img.kitty {
+    border: 0.8rem double #92a1ce;
+    background: gray;
+    padding: 1.2rem;
+  }
