@@ -1,11 +1,73 @@
-  .bright { color: red }
-  rt {color: magenta }
-  img {
-    border: 0.1rem dashed orange;
-    /* margin: -12px; */
-  }
-  img.kitty {
-    border: 0.8rem double #92a1ce;
-    background: gray;
-    padding: 1.2rem;
-  }
+.bright {
+  color: red
+}
+
+rt {
+  color: magenta
+}
+
+img {
+  border: 0.1em dashed orange;
+  /* margin: -12px; */
+}
+
+img.kitty {
+  border: 0.8rem double #92a1ce;
+  background: gray;
+  padding: 1.2em;
+}
+
+article.bash-tip {
+  padding-left: 3em;
+}
+
+.huzzah {
+  font-size: larger;
+  color: orangered;
+  font-variant: small-caps;
+}
+
+.course-name {
+  font-weight: 900;
+  font-size: 1.4em;
+  font-variant: small-caps;
+  font-style: italic;
+}
+
+.assignment-name {
+  font-weight: bold;
+  color: steelblue;
+}
+
+.bash-example {
+  font-family: monospace;
+  padding: 1em;
+  width: 80%;
+  border-width: 0.18em;
+  border-radius: 0px 1em 1em 1em;
+  border-style: dotted;
+  background-color: gray;
+}
+
+.shell-prompt {
+  color: limegreen;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.shell-command {
+  color: coral;
+  font-size: 1.1em;
+}
+
+.shell-argument {
+  color: deepskyblue;
+}
+
+.shell-pipe-redirect {
+  color: gold;
+}
+
+.shell-stdout {
+  /* placeholder */
+}

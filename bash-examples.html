@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cool Shell Tricks</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <body>
+    <nav>
+      <ul>
+        <li><a href="practice.html">Home</a></li>
+        <li><a href="notes-01.html">Class notes</a></li>
+        <li><a href="bash-examples.html">Shell Command tips and tricks</a></li>
+        <li><a href="calendar.html">My schedule</a></li>
+        <li><a href="mailto:realchriscasey@gmail.com">Contact</a></li>
+      </ul>
+    </nav>
+    <p>If you're like me, you've fallen in love with your command prompt.
+      If you're not like me, I'm here to convert you.</p>
+    <p>I hope you find these tricks useful in your
+      <span class="course-name">HTML5 100 A</span> adventures.
+    </p>
+    <article class="bash-tip" id="css-counting">
+      <h2>Counting CSS lines</h2>
+      <p>For <span class="assignment-name">Assignment 3</span>, one requirement is to write 50 lines of CSS.</p>
+      <p class="bash-example"><span class="shell-prompt">$</span> <span class="shell-command">grep</span> <span class="shell-argument">-v ^\s*$ styles/styles.css</span> <span class="shell-pipe-redirect">|</span> <span class="shell-command">wc</span> <span class="shell-argument">-l</span>
+      <br /><span class="shell-stdout">27</span>
+      <br /><span class="shell-prompt">$ </span></p>
+      <p><span class="huzzah">Huzzah!</span> We've counted only the non-empty lines in our CSS. Only 27? Looks like we need to get back to work...</p>
+    </article>
+  </body>
+</html>
