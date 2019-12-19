@@ -1,0 +1,95 @@
+
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+a {
+  color: steelblue;
+}
+em {
+  color: steelblue;
+}
+blockquote {
+  color: steelblue;
+}
+h4 {
+  color: steelblue;
+}
+
+header {
+  display: flex;
+  /* steelblue was the closest I could come to the correct color.
+    I can't seem to find a built-in color picker on macOS. */
+  background-color: steelblue;
+  color: white;
+  height: 17rem;
+
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+
+  /*
+  not sure how to get the left margin correct. I want it to match the page text,
+  but it isn't in the same <section>... maybe we cheat and make it 50 width
+  in its own section?
+  */
+    padding: 0; margin: 0; border: 0;
+}
+
+/* There's a white gap between the nav and the page header that I can't seem
+to get rid of. the padding/margin/border settings were an attempt to fix it.*/
+nav.header-nav {
+  background-color: lightgrey;
+  height: 3 rem;
+  padding: 0; margin: 0; border: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+}
+
+
+
+.main-page {
+    width: 50rem; /* 35rem + 15rem */
+    margin: 0 auto;
+}
+.main-content {
+  width: 35rem;
+  margin-right: 15rem;
+}
+.main-content::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.sidebar {
+  float: right;
+  max-width: 15rem;
+}
+.sidebar-img {
+  width: 100%;
+}
+.sidebar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+footer.page-footer {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  align-items: center;
+  padding: 5rem;
+  color: white;
+}
+.logo-cat {
+  width: 15rem;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Element Positioning sandbox</title>
+    <style>
+      p {
+        color: blue;
+        font-size: 1rem;
+      }
+
+      p.opening-paragraph {
+        font-size: 120%;
+      }
+      aside p {
+        color: limegreen;
+      }
+      ul.questions {
+        color: rebeccapurple;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Element Positioning sandbox</h1>
+      <main>
+        <section>
+          <h2>Introduction</h2>
+          <p class="opening-paragraph">Today we are practicing html postioning
+            elements. We will learn how to move content to where we want it.
+            This will improve the visual layout of a page.
+          </p>
+          <p>In order to practice this new skill we will need a lot of
+            paragraphs of text. The more text that we have, the more layout we
+            can practice.</p>
+            <p>The goal here is to fill an entire screen with this text. I could
+            use some ipsum, but it's funner to rant. Logherria is the absolute
+          best.</p>
+          <p>There's no way I'm going to fill a whole page though. Maybe we can
+          make the text really big. Or use double-spacing. It's like that time
+          in 7th grade when I had to write a 10 page paper. Throw a few
+          illustrations in, and use some fancy typesetting... Boom, you're done
+          in time to watch Captain Planet.</p>
+        </section>
+        <aside class="rant">
+          <h3>We're ranting now</h3>
+          <p>I'd like to say, while we're here, that writing HTML is even less
+          fun than writing Markdown. It's not intolerable, but it really doesn't
+        seem like humans are supposed to do it this way. I've used dreamweaver
+      before, but that was even worse. The results <i>look</i> good, but the
+      output is incredibly hard to deal with. Granted, this was while Bush (jr)
+    was still president, but I doubt if a WYSIWIG tool can really produce
+    quality output without compromising on control over the source.</p>
+    <p>I think RST might be the answer to my prayers. Is it cheating if I use
+    RST?</p>
+        </aside>
+        <aside class="questions">
+          I've got questions!
+          <ul>
+            <li>I'm super bored of copy-pasting my &lt;nav&gt; block between
+            all of my documents. Can I be more strategic? Will &lt;link&gt;
+            help?</li>
+            <li>Let's pretend that I've got <code>&lt;span class="turtle"&gt;
+            </code> and <code>&lt;span class="pet"&gt;</code>. Can I write some
+              css that makes all of my turtles be pets? Or do I need to
+              use <code>&lt;span class="turtle pet"&gt;</code> every time?
+            </li>
+            <li>I'm pretty sure I understand the difference between
+              <code>em</code> and <code>rem</code>. The former is relative to
+            the current font, and the latter is relative to the "root"
+            (unaltered, default size) font. But <i>when</i> should I use one or
+            the other?</li>
+            <li>If I've got <code>&lt;aside class="potato"&gt;&lt;p&gt;...
+              &lt;/p&gt;&lt;/aside&gt;</code>,
+            the class is only applied to <code>aside</code> and isn't
+          applied to <code>p</code>. Is there any way that I don't have to tag
+          all of my elements with the class, and instead have them inherit from
+          their parent?</li>
+          </ul>
+        </aside>
+      </main>
+    </header>
+  </body>
+</html>
