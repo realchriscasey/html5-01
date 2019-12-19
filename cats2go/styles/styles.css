@@ -44,7 +44,7 @@ header {
 to get rid of. the padding/margin/border settings were an attempt to fix it.*/
 nav.header-nav {
   background-color: lightgrey;
-  height: 3 rem;
+  height: 3rem;
   padding: 0; margin: 0; border: 0;
 }
 
