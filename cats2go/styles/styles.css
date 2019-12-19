@@ -70,6 +70,10 @@ li {
   clear: both;
   display: table;
 }
+.profile-img {
+  width: 80%;
+  margin-left: 10%;
+}
 .sidebar {
   float: right;
   max-width: 15rem;
