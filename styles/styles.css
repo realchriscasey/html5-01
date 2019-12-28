@@ -2,6 +2,23 @@
   color: red
 }
 
+nav {
+  display: flex;
+  justify-content:flex-start;
+  background: gainsboro;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+nav li a {
+  color: black;
+  background: orange;
+  padding-left: 3rem;
+}
+
 rt {
   color: magenta
 }
